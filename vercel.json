@@ -53,7 +53,7 @@
         },
         {
           "key": "Content-Disposition",
-          "value": "inline; filename=\"Shivam_Shirsat_Resume.pdf\""
+          "value": "attachment; filename=\"Shivam_Shirsat_Resume.pdf\""
         }
       ]
     }
