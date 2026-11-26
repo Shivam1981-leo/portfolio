@@ -1056,14 +1056,16 @@
            ========================================= */
         .about-grid {
             display: grid;
-            grid-template-columns: 380px 1fr;
-            gap: 5rem;
-            align-items: start;
+            grid-template-columns: 1fr;
+            gap: 0;
+            justify-items: center;
+            max-width: var(--measure);
+            margin: 0 auto;
         }
 
-        .about-image {
-            position: sticky;
-            top: 120px;
+        .about-text {
+            text-align: center;
+            max-width: var(--measure);
         }
 
         .image-wrapper {
